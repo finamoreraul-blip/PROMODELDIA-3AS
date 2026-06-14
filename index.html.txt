@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mis Promos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 { color: #00ff88; }
+  </style>
+</head>
+<body>
+  <h1>🔥 Mis Promos 🔥</h1>
+  <p>Si ves esto, GitHub Pages ya funciona!</p>
+  <p>Después acá pegás tus promos reales.</p>
+  
+  <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+</body>
+</html>
