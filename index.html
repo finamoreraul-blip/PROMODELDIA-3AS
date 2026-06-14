@@ -1,43 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mis Promos - Tres Arroyos</title>
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#25D366">
-<style>
-body{font-family:Arial,sans-serif;background:#f5f5f5;margin:0;padding:20px}
-h1{text-align:center;color:#25D366;margin-bottom:25px}
-.promo{background:white;padding:20px;border-radius:12px;margin-bottom:15px;box-shadow:0 2px 6px rgba(0,0,0,0.1)}
-.promo h3{margin:0 0 10px;color:#333}
-.promo p{margin:0 0 15px;color:#666;font-size:15px}
-.promo small{color:#999;font-size:12px}
-button{background:#25D366;color:white;border:none;padding:12px;border-radius:8px;cursor:pointer;width:100%;font-weight:bold;font-size:15px}
-</style>
+<title>MIS PROMOS FUNCIONA</title>
 </head>
 <body>
-<h1>Mis Promos</h1>
-
-<div class="promo">
-<h3>2x1 en Cafés</h3>
-<p>Café con leche + medialuna. Válido de 9:00 a 12:00 hs.</p>
-<small>📍 Centro</small>
-<button onclick="compartir('2x1 en Cafés - Café con leche + medialuna')">Compartir WhatsApp</button>
-</div>
-
-<div class="promo">
-<h3>30% OFF Pizzas</h3>
-<p>Todas las pizzas grandes. Solo delivery.</p>
-<small>📍 Zona Norte</small>
-<button onclick="compartir('30% OFF Pizzas - Todas las pizzas grandes')">Compartir WhatsApp</button>
-</div>
-
-<script>
-function compartir(texto){
-window.open('https://wa.me/?text='+encodeURIComponent(texto+'\n\n'+window.location.href),'_blank');
-}
-if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js');
-</script>
+<h1 style="color:green;text-align:center;margin-top:100px">MIS PROMOS FUNCIONA!!!</h1>
+<p style="text-align:center">Si ves esto, el código está bien. Era cache.</p>
 </body>
 </html>
